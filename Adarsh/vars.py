@@ -37,5 +37,5 @@ class Var(object):
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'client = pymongo.MongoClient("mongodb+srv://gautamparmarm31:<Gautam@977>@cluster0.mp4sc2l.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
 db = client.test'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL',None))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL',None1))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
